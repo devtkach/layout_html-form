@@ -12,62 +12,61 @@
   </head>
   <body>
     <form 
-  action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
-  method="post"
-  onsubmit="onSubmit()"
- >
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
+      method="post"
+      onsubmit="onSubmit()"
+    >
       <!-- Personal info block -->
       <fieldset>
         <legend>Personal information</legend>
         <label for="surname">
           Surname:
           <input 
-          type="text" 
-          name="surname" 
-          id="surname"
-          autocomplete="off"
-          minlength="2"
-          maxlength="20"
+            type="text" 
+            name="surname" 
+            id="surname"
+            autocomplete="off"
+            minlength="2"
+            maxlength="20"
           >
         </label>
         <label for="name">
           Name:
           <input 
-          type="text" 
-          name="name" 
-          id="name"
-          autocomplete="off"
-          minlength="2"
-          maxlength="20"
+            type="text" 
+            name="name" 
+            id="name"
+            autocomplete="off"
+            minlength="2"
+            maxlength="20"
           >
         </label>
         <label for="age">
           How old are You?
           <input 
-          type="number" 
-          name="age" 
-          id="age" 
-          value="12"
-          min="10"
-          max="100"
+            type="number" 
+            name="age" 
+            id="age" 
+            value="12"
+            min="10"
+            max="100"
           >
         </label>
         <label for="birth">
           Full date of birth:
           <input 
-          type="date" 
-          name="birth" 
-          id="birth"
-          
+            type="date" 
+            name="birth" 
+            id="birth"
           >
         </label>
         <label for="terms-of-agreement">
           I accept the term of the agreement
           <input 
-          type="checkbox" 
-          name="terms-of-agreement" 
-          id="terms-of-agreement"
-          required
+            type="checkbox" 
+            name="terms-of-agreement" 
+            id="terms-of-agreement"
+            required
           >
         </label>
       </fieldset>
@@ -77,20 +76,20 @@
         <label for="email">
           E-mail:
           <input 
-          type="email" 
-          name="email" 
-          id="email" 
-          placeholder="email@example.com"
-          required
+            type="email" 
+            name="email" 
+            id="email" 
+            placeholder="email@example.com"
+            required
           >
         </label>
         <label for="password">
           Password:
           <input 
-          type="password" 
-          name="password" 
-          id="password"
-          required
+            type="password" 
+            name="password" 
+            id="password"
+            required
           >
         </label>
       </fieldset>
@@ -100,17 +99,19 @@
         <label for="cats">     
           Do you love cats?
           <input 
-          type="radio" 
-          name="cats" 
-          value="yes" 
-          id="cats-yes"
-          ><label for="cats-yes" class="radio">Yes</label>
+            type="radio" 
+            name="cats" 
+            value="yes" 
+            id="cats-yes"
+          >
+          <label for="cats-yes" class="radio">Yes</label>
           <input 
-          type="radio" 
-          name="cats" 
-          value="no" 
-          id="cats-no"
-          ><label for="cats-no" class="radio">No</label>
+            type="radio" 
+            name="cats" 
+            value="no" 
+            id="cats-no"
+          >
+          <label for="cats-no" class="radio">No</label>
         </label>
         <label for="color">
           What is your favorite color?
@@ -119,18 +120,19 @@
         <label for="bed-time">
           What time do you go to bed?
           <input 
-          type="time" 
-          name="bed-time" 
-          id="bed-time"
-          step="2"
+            type="time" 
+            name="bed-time" 
+            id="bed-time"
+            step="2"
           >
         </label>
         <label for="favorite-brand-of-cars">
           What are your favorite brank of cars?
           <select 
-          name="favorite-brand-of-cars" 
-          id="favorite-brand-of-cars"
-          multiple>
+            name="favorite-brand-of-cars" 
+            id="favorite-brand-of-cars"
+            multiple
+          >
             <option>BMW</option>
             <option>Audi</option>
             <option>Lada</option>
@@ -139,10 +141,10 @@
         <label for="rate-our-work">
           How do you rate our work?
           <input 
-          type="range" 
-          id="rate-or-work" 
-          name="rate"
-          value="0"
+            type="range" 
+            id="rate-or-work" 
+            name="rate"
+            value="0"
           >
         </label>
       </fieldset>
@@ -152,17 +154,17 @@
         <label for="comments">
           Comments:
           <textarea 
-          name="comments" 
-          id="comments" 
-          cols="20" 
-          rows="2"
+            name="comments" 
+            id="comments" 
+            cols="20" 
+            rows="2"
           ></textarea>
         </label>
         <label for="recommend-us">
           Would you recommend us?
           <select 
-          name="recommend-us" 
-          id="recommend-us"
+            name="recommend-us" 
+            id="recommend-us"
           >
             <option value="yes">yes</option>
             <option value="yes">no</option>
